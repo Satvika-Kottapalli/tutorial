@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Air Quality Result</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body >
+    <div class="container">
+        <h1>Air Quality for <%= city %></h1>
+        <p>AQI: <%= airQuality.aqi %></p>
+        <p>PM2.5: <%= airQuality.pm2_5 %> µg/m³</p>
+        <p>PM10: <%= airQuality.pm10 %> µg/m³</p>
+        <p>O3: <%= airQuality.o3 %> ppb</p>
+        <p>NO2: <%= airQuality.no2 %> ppb</p>
+        <p>SO2: <%= airQuality.so2 %> ppb</p>
+        <p>CO: <%= airQuality.co %> ppm</p>
+        <a href="/dashboard">Back to Dashboard</a>
+    </div>
+</body>
+</html>

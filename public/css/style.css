@@ -1,0 +1,46 @@
+/* Resetting default styles */
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body Styles */
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container Styles */
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center aligning content */
+  }
+  
+  /* Heading Styles */
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Paragraph Styles */
+  
+  p {
+    color: #666;
+  }
+  
+  /* Link Styles */
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
